@@ -1,0 +1,38 @@
+.post {
+  padding: 5%;
+  background-color: rgb(199, 199, 245);
+}
+
+.post__heading {
+  margin: 4%;
+}
+
+.post__intro,
+.post__main,
+.post__outro {
+  padding: 2%;
+  margin: 4%;
+}
+
+.post__intro {
+  background-color: yellow;
+}
+
+.post__main {
+  background-color: rgb(202, 143, 236);
+}
+
+.post__main ul {
+  padding-left: calc(4% + 5px);
+}
+
+.post__outro {
+  background-color: rgb(61, 197, 221);
+}
+
+.post__outro a {
+  color: blue;
+  text-decoration: underline;
+  display: block;
+  margin: 1em 0;
+}
